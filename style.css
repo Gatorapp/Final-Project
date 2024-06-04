@@ -1,6 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   padding: 5px;
+   align-items: center;
+}
+
+/* Header */
+
+nav,
+.light__navlink {
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+a {
+   color: #000;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+img {
+   display: flex;
+   align-items: center;
+   height: 50px;
+}
+
+.logotext {
+   display: flex;
+   align-items: center;
+   height: 50%;
+}
+
+.light__links{
+   display: flex;
+   box-sizing: border-box;
+}
+
+li{
+   list-style: none;
+   margin: 0px 24px;
+}
+
+.navlink__primary {
+   font: 14px;
+   border-radius: 48px; 
+   color: white;
+   background-color: #6415ff;
+   margin-top: 32px;
+   margin-32px
+}
+
+span {
+   color: purple;
+}
+
+/* TOP */
+.top__twocolumn{
+   display: flex;
+}
+
+.topleft__column {
+   width: 41.6667%;
+   max-width: none;
+   text-align: left;
+
+}
+header {
+   font-size: 48px;
+}
+
+.top__heading {
+   
+   font-size: 1.875rem;
+}
+
+p {
+   font-size: 1.25rem;
+   margin-bottom: 1.25rem;
+   font-size: 1rem;       
+}
+
+
+.top__action {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 28rem;
+   text-align: center;
+   
+}
+
+.top__action input {
+   padding-top: 1.2rem;
+   padding-bottom: 1.25rem;
+   padding-right: 12rem;
+   border-radius: 9999px;
+}
+
+button{ 
+   position: absolute;
+   margin-top: 0.5rem;
+   margin-bottom: 0.5rem;
+   width: 10rem;
+   line-height: 3;
+   margin: 32px;
+   border-radius: 9999px;
+}
+
+.topleft__customerslogo {
+   margin-top: 48px;
+   text-transform: uppercase;
+   color: rgb(160, 174, 192)
+
+}
+
+.logo__strip {
+   margin-top: 16px;
+   width: 75%;
+   height: auto;
+   opacity: .5;
+}
+
+.top__rightcolumn {
+   position: relative;
+   margin-top: 48px;
+   display: flex;
+   flex: 1 1 0%;
+   justify-content: center;
+}
+
+.topright__illustrationcontainer {
+   height: 768px;
+   margin-top: 0px;
+   align-self: flex-end;
+   max-width: 768px;
+}
 
 
 
- .purple {
-    color: rgb(100, 21, 255);
- }
+
+
+
