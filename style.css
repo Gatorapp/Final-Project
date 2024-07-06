@@ -463,7 +463,7 @@ button {
     height: 24px;
     width: 24px;
     max-width: 100%;
-    
+    display: block;
     border: none;
    
 }
