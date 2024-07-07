@@ -345,7 +345,6 @@ button {
     display: flex;
     align-items: center;  
 }
-.sectionthree__image,
 .twocolumn__styledimg {
     width: 100%;
     min-width: 0px;
